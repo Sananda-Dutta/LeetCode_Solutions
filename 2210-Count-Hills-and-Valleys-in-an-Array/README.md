@@ -55,7 +55,7 @@ There are 0 hills and valleys so we return 0.
 
 - **Language**: C++
 - **Runtime**: 0 ms
-- **Memory**: 8.2 MB
+- **Memory**: 8.1 MB
 
 ---
 
