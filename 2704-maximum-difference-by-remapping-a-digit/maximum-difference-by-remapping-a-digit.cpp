@@ -1,11 +1,8 @@
-
 class Solution {
 public:
     int minMaxDifference(int num) {
 
         string s = to_string(num);
-
-        // Maximum number
         string maxi = s;
 
         char digit = ' ';
@@ -24,12 +21,8 @@ public:
                 }
             }
         }
-
-        // Minimum number
         string mini = s;
-
         digit = s[0];
-
         for (int i = 0; i < mini.size(); i++) {
             if (mini[i] == digit) {
                 mini[i] = '0';
