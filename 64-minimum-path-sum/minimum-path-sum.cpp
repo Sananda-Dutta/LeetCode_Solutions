@@ -10,7 +10,7 @@ public:
                 if(i==0 && j==0) {
                     curr[j]=grid[i][j];
                 }
-                else if(i<0 || j<0) return INT_MAX;
+                //else if(i<0 || j<0) return INT_MAX;
                 else{
                     int up=grid[i][j];
                     int left=grid[i][j];
