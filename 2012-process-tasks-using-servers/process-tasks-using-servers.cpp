@@ -52,7 +52,6 @@ public:
 class Solution {
 public:
     vector<int> assignTasks(vector<int>& servers, vector<int>& tasks) {
-
         int n = servers.size();
         int m = tasks.size();
 
